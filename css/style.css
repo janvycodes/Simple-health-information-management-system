@@ -1,0 +1,551 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nurse form select, .nurse form option, .nurse form input[type="date"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.hmpage{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20% 3%;
+	background-image: url("../media/bg-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.hmpage section{
+	width: 60%;
+}
+.hmpage h2{
+	text-align: center;
+	padding: 5px 0;
+	color: #fe6a32;
+	font-weight: 600;
+}
+.hmpage p{
+	padding: 0 0 10px 0;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	font-size: 1.15rem;
+	font-weight: 300;
+}
+.hmpage p span{
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #000;
+	font-weight: 150;
+}
+.hmpage p a{
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: grey;
+	font-weight: 150;
+}
+.hmpage p a:hover{
+	color: blue;
+}
+.lgo{
+	height: 120px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.lgo img{
+	width: 120px;
+	height: 120px;
+}
+header{
+	width: 100%;
+	height: 60px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: red;
+	z-index: 1000;
+}
+#logo{
+	height: 80.5%;
+	width: 50%;
+	display: inline-flex;
+}
+#logo img{
+	width: 10%;
+	height: 100%;
+	margin-right: 10px;
+}
+#logo h1{
+	padding: 17px 0;
+	font-size: 16px;
+	color: #fff;
+}
+.userr{
+	color: #fff;
+}
+.userr a{
+	padding: 10px 15px;
+	background-color: #fff;
+	color: red;
+	text-decoration: none;
+}
+.userr a:hover{
+	background-color: whitesmoke;
+}
+.search{
+	width: 30%;
+	height: 30px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 4%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search form input[type="text"]{
+	width: 70%;
+	padding: 15px 15px;
+}
+.search form input[type="submit"]{
+	width: 25%;
+	padding: 15px 15px;
+}
+.search form input[type="submit"]:hover{
+	background-color:  #171a21;
+	color: #fff
+}
+
+/*admin*/
+.admin{
+	width: 100vw;
+	height: 100vh;
+	padding: 20% 10%;
+	background-image: url("../media/bg-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.admin form{
+	float: right;
+	width: 30%;
+}
+.admin form h3{
+	text-align: center;
+	color: #002140;
+}
+.admin form input[type="text"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.admin form .alert{
+	color: red;
+	padding: 10px 0 0 3px;
+}
+.admin form input[type="password"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.admin form input[type="submit"]{
+	width: 100%;
+	margin: 15px 0;
+	padding: 15px 15px;
+}
+.admin form input[type="submit"]:hover{
+	background-color: deepskyblue;
+}
+.admin form a{
+	text-decoration: none;
+}
+.admin form a:hover{
+	color: #5451d6;
+}
+.stats{
+	width: 100%;
+	height: relative;
+	padding: 3% 8%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: auto auto auto;
+}
+.stat-main{
+	width: 250px;
+	height: 100px;
+	background-color: blue;
+}
+#stat1{
+	width: 100%;
+	height: 60px;
+	background-color: deepskyblue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+	font-weight: 600;
+}
+#stat2{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#stat2 a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+}
+.addit{
+	margin: 0 8% 1vh 8%;
+	padding: 10px 15px;
+	background-color: grey;
+	text-decoration: none;
+}
+.addit:hover{
+	padding: 12px 17px;
+	background-color: red;
+	color: #fff;
+}
+.dddd{
+	color: green;
+	font-weight: 600;
+	font-size: 18px;
+}
+#del{
+	padding: 10px 20px;
+	background-color: red;
+	color: #fff;
+	text-decoration: none;
+}
+#del:hover{
+	background-color: black;
+	c
+}
+
+/*nurse*/
+.nurse{
+	width: 100vw;
+	height: 100vh;
+	padding: 0 7%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url("../media/bg-5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.nurse form{
+	float: left;
+	width: 30%;
+}
+.nurse form h3{
+	text-align: center;
+	color: #002140;
+}
+.nurse form input[type="text"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.nurse form input[type="password"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.nurse form input[type="submit"]{
+	width: 100%;
+	margin: 15px 0;
+	padding: 15px 15px;
+}
+.nurse form input[type="submit"]:hover{
+	background-color: deepskyblue;
+}
+.nurse form .alert{
+	color: red;
+	padding: 10px 0 0 3px;
+}
+.nurse form a{
+	text-decoration: none;
+}
+.nurse form a:hover{
+	color: #5451d6;
+}
+.crepat{
+	width: 100%;
+	height: 70%;
+	background-color: transparent;
+	padding: 80px 20px;
+}
+.crept{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.crept1,.crept2{
+	width: 48%;
+	height: 70%;
+	border: 1px solid grey;
+	padding: 20px;
+}
+.crept1 h3,.crept2 h3{
+	margin-bottom: 10px;
+}
+.crept1 h4,.crept2 h4{
+	margin-bottom: 7px;
+	color: #171a21;
+}
+.crepat .crept1 input[type="text"],.crepat .crept1 input[type="date"], .crepat .crept1 select{
+	width: 100%;
+	margin: 0 0 5px 0;
+	padding: 15px 15px;
+}
+.crepat .crept2 input[type="text"],.crepat .crept2 select,.crepat .crept2 textarea,.crepat .crept2 input[type="password"]{
+	width: 100%;
+	margin: 0 0 5px 0;
+	padding: 15px 15px;
+}
+ .crepat form input[type="submit"]{
+	width: 40%;
+	float: right;
+	margin: 5px 0 5px 0;
+	padding: 15px 15px;
+}
+.crepat form input[type="submit"]:hover{
+	background-color: #171a21;
+	color: #fff;
+}
+.crept2 .alert{
+	color: red;
+	padding: 10px 0 0 3px;
+}
+.crepat form .alert{
+	color: red;
+	padding: 10px 0 0 3px;
+}
+.rslt{
+    width: 100%;
+    height: 50px;
+    padding: 20px 30px;
+}
+.rslt b{
+    float: left;
+}
+.rslt .rst{
+    float: right;
+}
+td,th{
+    padding: 10px 20px;
+}
+.reslt a{
+	padding: 10px 15px;
+	background-color: red;
+	color: #000;
+	text-decoration: none;
+}
+.reslt a:hover{
+	background-color: green;
+	color: #fff;
+}
+.search-area{
+	width: 100%;
+	margin-top: 60px;
+	padding: 0 7%;
+}
+
+/*doctor*/
+.doctor{
+	width: 100vw;
+	height: 100vh;
+	padding: 0 7%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url("../media/bg-6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.doctor form{
+	float: left;
+	width: 30%;
+}
+.doctor form h3{
+	text-align: center;
+	color: #002140;
+}
+.doctor form input[type="text"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.doctor form input[type="password"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.doctor form input[type="submit"]{
+	width: 100%;
+	margin: 15px 0;
+	padding: 15px 15px;
+}
+.doctor form input[type="submit"]:hover{
+	background-color: deepskyblue;
+}
+.doctor form .alert{
+	color: red;
+	padding: 10px 0 0 3px;
+}
+.doctor form a{
+	text-decoration: none;
+}
+.doctor form a:hover{
+	color: #5451d6;
+}
+#anch{
+	padding: 10px 20px;
+	background-color: blue;
+	color: #fff;
+	text-decoration: none;
+}
+#anch:hover{
+	background-color: red;
+}
+.tbl {
+	padding: 10px 0;
+}
+.gtd{
+	color: blue;
+	text-decoration: none;
+	font-weight: 100;
+}
+.gtd:hover{
+	color: green;
+}
+/*lab technician*/
+.labtech{
+	width: 100vw;
+	height: 100vh;
+	padding: 0 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url("../media/bg-7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.labtech form{
+	float: right;
+	width: 30%;
+	margin-left: 65%;
+}
+.labtech form h3{
+	text-align: center;
+	color: #002140;
+}
+.labtech form input[type="text"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.labtech form input[type="password"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.labtech form input[type="submit"]{
+	width: 100%;
+	margin: 15px 0;
+	padding: 15px 15px;
+}
+.labtech form input[type="submit"]:hover{
+	background-color: deepskyblue;
+}
+.labtech form .alert{
+	color: red;
+	padding: 10px 0 0 3px;
+}
+.labtech form a{
+	text-decoration: none;
+}
+.labtech form a:hover{
+	color: #5451d6;
+}
+.crepat input[type="text"]{
+	padding: 10px;
+	width: 100px;
+}
+.crepat input[type="submit"]{
+	padding: 10px 15px;
+}
+.crepat input[type="submit"]:hover{
+	background-color: #171a21;
+	color: #fff;
+}
+.crepat textarea{
+	padding: 10px;
+	width: 200px;
+	height: 100px;
+}
+/*pharmacist*/
+.pharmacist{
+	width: 100vw;
+	height: 100vh;
+	padding: 0 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url("../media/bg-9.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.pharmacist form{
+	float: right;
+	width: 30%;
+}
+.pharmacist form h3{
+	text-align: center;
+	color: #002140;
+}
+.pharmacist form input[type="text"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.pharmacist form input[type="password"]{
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 15px 15px;
+}
+.pharmacist form input[type="submit"]{
+	width: 100%;
+	margin: 15px 0;
+	padding: 15px 15px;
+}
+.pharmacist form input[type="submit"]:hover{
+	background-color: deepskyblue;
+}
+.pharmacist form .alert{
+	color: red;
+	padding: 10px 0 0 3px;
+}
+.pharmacist form a{
+	text-decoration: none;
+}
+.pharmacist form a:hover{
+	color: #5451d6;
+}
+
